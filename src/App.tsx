@@ -1,5 +1,5 @@
 function App(){
-return
+return(
 <div>
   <h1>welcome to first react deploy</h1>
   <p>npm install gh-pages --save-dev<br/>
@@ -7,7 +7,7 @@ return
   <br/>
   deploy settings
   packages .json 
-  "homepage":https://username.github.io/repository name
+  <p>"homepage":https:  //username.github.io /repository name</p>
    in scripts
    "predeploy":"npm run build"
    "deploy":"gh-pages -d build "
@@ -15,5 +15,6 @@ return
    after open repository deploy pages and check
   </p>
 </div>
+);
 } 
 export default App;
